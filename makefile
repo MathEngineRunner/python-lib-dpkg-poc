@@ -10,3 +10,9 @@ run-tests:
 
 build-lib:
 	python setup.py bdist_wheel
+
+distribute-test:
+	python -m twine upload --repository testpypi dist/*
+
+clean:
+	python setup.py clean --all
