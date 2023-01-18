@@ -14,5 +14,8 @@ build-lib:
 distribute-test:
 	python -m twine upload --repository testpypi dist/*
 
+distribute:
+    python -m twine upload dist/*
+	
 clean:
 	python setup.py clean --all
