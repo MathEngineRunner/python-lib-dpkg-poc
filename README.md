@@ -18,3 +18,7 @@ $ pip install -r requirements.txt
 
 - https://gist.github.com/guillaume-humbert/0c69a350a8bcfff0c12b2d1c553b6fb6
 - https://micropyramid.com/blog/python-to-debian-package-simple-easy-and-fast/
+
+## Reference
+
+- https://github.com/nanoporetech/bonito/blob/master/Makefile
