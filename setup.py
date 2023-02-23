@@ -10,7 +10,8 @@ setup(
     description='Python library PoC',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author='rsouza01@gmail.com',
+    author='Rodrigo de Souza',
+    author_email='rsouza01@gmail.com',
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -22,4 +23,7 @@ setup(
     tests_require=['pytest==7.2.1'],
     test_suite='tests',
     python_requires='>=3.6',
+    zip_safe=False,
+    url='https://github.com/MathEngineRunner/python-lib-dpkg-poc',
+
 )
